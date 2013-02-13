@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* T2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* T2AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		8C05E2B512A03CC900E8AED4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C05E2B412A03CC900E8AED4 /* SecondViewController.m */; };
+		8C05E33212A06CF000E8AED4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C05E33112A06CF000E8AED4 /* Icon.png */; };
+		8C05E34112A075A300E8AED4 /* antena.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C05E34012A075A300E8AED4 /* antena.png */; };
+		8C05E34612A076B800E8AED4 /* globos.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C05E34512A076B800E8AED4 /* globos.png */; };
+		8C81312412DA00020000B0CD /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C81312312DA00020000B0CD /* MainWindow-iPad.xib */; };
+		8C85252012A2D4BC00044CC1 /* EventosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C85251E12A2D4BC00044CC1 /* EventosViewController.m */; };
+		8C85252112A2D4BC00044CC1 /* EventosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C85251F12A2D4BC00044CC1 /* EventosViewController.xib */; };
+		8C86181812BFCF6B0058BF1D /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86181712BFCF6B0058BF1D /* model.m */; };
+		8C8F0F051315128400A8197E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8F0F041315128400A8197E /* CoreLocation.framework */; };
+		8C957B4D12A163E20096D158 /* SincroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C957B4B12A163E20096D158 /* SincroViewController.m */; };
+		8C957B4E12A163E20096D158 /* SincroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C957B4C12A163E20096D158 /* SincroViewController.xib */; };
+		8CA2110A12F2C300007C5579 /* ListaInvitadosPortero.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2110812F2C300007C5579 /* ListaInvitadosPortero.m */; };
+		8CA2110B12F2C300007C5579 /* ListaInvitadosPortero.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA2110912F2C300007C5579 /* ListaInvitadosPortero.xib */; };
+		8CA5CE7212C21D53007EBCBC /* ListaInvitadosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CE7012C21D53007EBCBC /* ListaInvitadosController.m */; };
+		8CA5CE7312C21D53007EBCBC /* ListaInvitadosController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CE7112C21D53007EBCBC /* ListaInvitadosController.xib */; };
+		8CA5CE8612C22500007EBCBC /* NuevoInvitadoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CE8412C22500007EBCBC /* NuevoInvitadoController.m */; };
+		8CA5CE8712C22500007EBCBC /* NuevoInvitadoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CE8512C22500007EBCBC /* NuevoInvitadoController.xib */; };
+		8CA5CE9512C22CA6007EBCBC /* BVInvitado.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CE9412C22CA6007EBCBC /* BVInvitado.m */; };
+		8CA5CEE112C25AE4007EBCBC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CEDD12C25AE4007EBCBC /* Icon-72.png */; };
+		8CA5CEE212C25AE4007EBCBC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CEDE12C25AE4007EBCBC /* Icon-Small-50.png */; };
+		8CA5CEE312C25AE4007EBCBC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CEDF12C25AE4007EBCBC /* Icon-Small.png */; };
+		8CA5CEE412C25AE4007EBCBC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CEE012C25AE4007EBCBC /* Icon-Small@2x.png */; };
+		8CA5CEE712C25AFB007EBCBC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CEE512C25AFB007EBCBC /* Icon@2x.png */; };
+		8CA5CEE812C25AFB007EBCBC /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CEE612C25AFB007EBCBC /* iTunesArtwork */; };
+		8CA5E48E12C9068800A4DADD /* bevip_logo_boton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5E48D12C9068800A4DADD /* bevip_logo_boton.png */; };
+		8CA5E4CB12C91BC600A4DADD /* SelectorNombres.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5E4C912C91BC600A4DADD /* SelectorNombres.m */; };
+		8CA5E4CC12C91BC600A4DADD /* SelectorNombres.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5E4CA12C91BC600A4DADD /* SelectorNombres.xib */; };
+		8CF3A2AB12C1180A0064C4DE /* BVLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3A2AA12C1180A0064C4DE /* BVLocal.m */; };
+		8CF3A2AE12C1181E0064C4DE /* BVEvento.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3A2AD12C1181E0064C4DE /* BVEvento.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* T2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* T2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BeVip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeVip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* BeVip_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeVip_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C05E2B312A03CC900E8AED4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8C05E2B412A03CC900E8AED4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8C05E33112A06CF000E8AED4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8C05E34012A075A300E8AED4 /* antena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = antena.png; sourceTree = "<group>"; };
+		8C05E34512A076B800E8AED4 /* globos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globos.png; sourceTree = "<group>"; };
+		8C81312312DA00020000B0CD /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		8C85251D12A2D4BC00044CC1 /* EventosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventosViewController.h; sourceTree = "<group>"; };
+		8C85251E12A2D4BC00044CC1 /* EventosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventosViewController.m; sourceTree = "<group>"; };
+		8C85251F12A2D4BC00044CC1 /* EventosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventosViewController.xib; sourceTree = "<group>"; };
+		8C86181612BFCF6B0058BF1D /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		8C86181712BFCF6B0058BF1D /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		8C8F0F041315128400A8197E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8C8F0F661315283100A8197E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8C957B4A12A163E20096D158 /* SincroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SincroViewController.h; sourceTree = "<group>"; };
+		8C957B4B12A163E20096D158 /* SincroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SincroViewController.m; sourceTree = "<group>"; };
+		8C957B4C12A163E20096D158 /* SincroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SincroViewController.xib; path = Classes/SincroViewController.xib; sourceTree = "<group>"; };
+		8CA2110712F2C300007C5579 /* ListaInvitadosPortero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaInvitadosPortero.h; sourceTree = "<group>"; };
+		8CA2110812F2C300007C5579 /* ListaInvitadosPortero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaInvitadosPortero.m; sourceTree = "<group>"; };
+		8CA2110912F2C300007C5579 /* ListaInvitadosPortero.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListaInvitadosPortero.xib; sourceTree = "<group>"; };
+		8CA5CE6F12C21D53007EBCBC /* ListaInvitadosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaInvitadosController.h; sourceTree = "<group>"; };
+		8CA5CE7012C21D53007EBCBC /* ListaInvitadosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaInvitadosController.m; sourceTree = "<group>"; };
+		8CA5CE7112C21D53007EBCBC /* ListaInvitadosController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListaInvitadosController.xib; sourceTree = "<group>"; };
+		8CA5CE8312C22500007EBCBC /* NuevoInvitadoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoInvitadoController.h; sourceTree = "<group>"; };
+		8CA5CE8412C22500007EBCBC /* NuevoInvitadoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoInvitadoController.m; sourceTree = "<group>"; };
+		8CA5CE8512C22500007EBCBC /* NuevoInvitadoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NuevoInvitadoController.xib; sourceTree = "<group>"; };
+		8CA5CE9312C22CA6007EBCBC /* BVInvitado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVInvitado.h; sourceTree = "<group>"; };
+		8CA5CE9412C22CA6007EBCBC /* BVInvitado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVInvitado.m; sourceTree = "<group>"; };
+		8CA5CEDD12C25AE4007EBCBC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		8CA5CEDE12C25AE4007EBCBC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		8CA5CEDF12C25AE4007EBCBC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		8CA5CEE012C25AE4007EBCBC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		8CA5CEE512C25AFB007EBCBC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8CA5CEE612C25AFB007EBCBC /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		8CA5E48D12C9068800A4DADD /* bevip_logo_boton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bevip_logo_boton.png; sourceTree = "<group>"; };
+		8CA5E4C812C91BC600A4DADD /* SelectorNombres.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorNombres.h; sourceTree = "<group>"; };
+		8CA5E4C912C91BC600A4DADD /* SelectorNombres.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorNombres.m; sourceTree = "<group>"; };
+		8CA5E4CA12C91BC600A4DADD /* SelectorNombres.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorNombres.xib; sourceTree = "<group>"; };
+		8CF3A2A912C1180A0064C4DE /* BVLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVLocal.h; sourceTree = "<group>"; };
+		8CF3A2AA12C1180A0064C4DE /* BVLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVLocal.m; sourceTree = "<group>"; };
+		8CF3A2AC12C1181E0064C4DE /* BVEvento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVEvento.h; sourceTree = "<group>"; };
+		8CF3A2AD12C1181E0064C4DE /* BVEvento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVEvento.m; sourceTree = "<group>"; };
+		8CF3A2AF12C1254E0064C4DE /* modeldelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modeldelegate.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BeVip-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeVip-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				8C8F0F051315128400A8197E /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				1D3623240D0F684500981E51 /* T2AppDelegate.h */,
+				1D3623250D0F684500981E51 /* T2AppDelegate.m */,
+				8C05E2B312A03CC900E8AED4 /* SecondViewController.h */,
+				8C05E2B412A03CC900E8AED4 /* SecondViewController.m */,
+				8C957B4A12A163E20096D158 /* SincroViewController.h */,
+				8C957B4B12A163E20096D158 /* SincroViewController.m */,
+				8C85251D12A2D4BC00044CC1 /* EventosViewController.h */,
+				8C85251E12A2D4BC00044CC1 /* EventosViewController.m */,
+				8C85251F12A2D4BC00044CC1 /* EventosViewController.xib */,
+				8C86181612BFCF6B0058BF1D /* model.h */,
+				8C86181712BFCF6B0058BF1D /* model.m */,
+				8CF3A2A912C1180A0064C4DE /* BVLocal.h */,
+				8CF3A2AA12C1180A0064C4DE /* BVLocal.m */,
+				8CF3A2AC12C1181E0064C4DE /* BVEvento.h */,
+				8CF3A2AD12C1181E0064C4DE /* BVEvento.m */,
+				8CF3A2AF12C1254E0064C4DE /* modeldelegate.h */,
+				8CA5CE6F12C21D53007EBCBC /* ListaInvitadosController.h */,
+				8CA5CE7012C21D53007EBCBC /* ListaInvitadosController.m */,
+				8CA5CE7112C21D53007EBCBC /* ListaInvitadosController.xib */,
+				8CA5CE8312C22500007EBCBC /* NuevoInvitadoController.h */,
+				8CA5CE8412C22500007EBCBC /* NuevoInvitadoController.m */,
+				8CA5CE8512C22500007EBCBC /* NuevoInvitadoController.xib */,
+				8CA5CE9312C22CA6007EBCBC /* BVInvitado.h */,
+				8CA5CE9412C22CA6007EBCBC /* BVInvitado.m */,
+				8CA5E4C812C91BC600A4DADD /* SelectorNombres.h */,
+				8CA5E4C912C91BC600A4DADD /* SelectorNombres.m */,
+				8CA5E4CA12C91BC600A4DADD /* SelectorNombres.xib */,
+				8CA2110712F2C300007C5579 /* ListaInvitadosPortero.h */,
+				8CA2110812F2C300007C5579 /* ListaInvitadosPortero.m */,
+				8CA2110912F2C300007C5579 /* ListaInvitadosPortero.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BeVip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* T2 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				8C81312212DA00000000B0CD /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				8C8F0F661315283100A8197E /* Entitlements.plist */,
+			);
+			name = T2;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* BeVip_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CA5E48D12C9068800A4DADD /* bevip_logo_boton.png */,
+				8CA5CEE512C25AFB007EBCBC /* Icon@2x.png */,
+				8CA5CEE612C25AFB007EBCBC /* iTunesArtwork */,
+				8CA5CEDD12C25AE4007EBCBC /* Icon-72.png */,
+				8CA5CEDE12C25AE4007EBCBC /* Icon-Small-50.png */,
+				8CA5CEDF12C25AE4007EBCBC /* Icon-Small.png */,
+				8CA5CEE012C25AE4007EBCBC /* Icon-Small@2x.png */,
+				8C957B4C12A163E20096D158 /* SincroViewController.xib */,
+				8C05E34512A076B800E8AED4 /* globos.png */,
+				8C05E34012A075A300E8AED4 /* antena.png */,
+				8C05E33112A06CF000E8AED4 /* Icon.png */,
+				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* BeVip-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				8C8F0F041315128400A8197E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C81312212DA00000000B0CD /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8C81312312DA00020000B0CD /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BeVip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BeVip" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeVip;
+			productName = T2;
+			productReference = 1D6058910D05DD3D006BFB54 /* BeVip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BeVip" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* T2 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BeVip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				8C05E33212A06CF000E8AED4 /* Icon.png in Resources */,
+				8C05E34112A075A300E8AED4 /* antena.png in Resources */,
+				8C05E34612A076B800E8AED4 /* globos.png in Resources */,
+				8C957B4E12A163E20096D158 /* SincroViewController.xib in Resources */,
+				8C85252112A2D4BC00044CC1 /* EventosViewController.xib in Resources */,
+				8CA5CE7312C21D53007EBCBC /* ListaInvitadosController.xib in Resources */,
+				8CA5CE8712C22500007EBCBC /* NuevoInvitadoController.xib in Resources */,
+				8CA5CEE112C25AE4007EBCBC /* Icon-72.png in Resources */,
+				8CA5CEE212C25AE4007EBCBC /* Icon-Small-50.png in Resources */,
+				8CA5CEE312C25AE4007EBCBC /* Icon-Small.png in Resources */,
+				8CA5CEE412C25AE4007EBCBC /* Icon-Small@2x.png in Resources */,
+				8CA5CEE712C25AFB007EBCBC /* Icon@2x.png in Resources */,
+				8CA5CEE812C25AFB007EBCBC /* iTunesArtwork in Resources */,
+				8CA5E48E12C9068800A4DADD /* bevip_logo_boton.png in Resources */,
+				8CA5E4CC12C91BC600A4DADD /* SelectorNombres.xib in Resources */,
+				8C81312412DA00020000B0CD /* MainWindow-iPad.xib in Resources */,
+				8CA2110B12F2C300007C5579 /* ListaInvitadosPortero.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* T2AppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				8C05E2B512A03CC900E8AED4 /* SecondViewController.m in Sources */,
+				8C957B4D12A163E20096D158 /* SincroViewController.m in Sources */,
+				8C85252012A2D4BC00044CC1 /* EventosViewController.m in Sources */,
+				8C86181812BFCF6B0058BF1D /* model.m in Sources */,
+				8CF3A2AB12C1180A0064C4DE /* BVLocal.m in Sources */,
+				8CF3A2AE12C1181E0064C4DE /* BVEvento.m in Sources */,
+				8CA5CE7212C21D53007EBCBC /* ListaInvitadosController.m in Sources */,
+				8CA5CE8612C22500007EBCBC /* NuevoInvitadoController.m in Sources */,
+				8CA5CE9512C22CA6007EBCBC /* BVInvitado.m in Sources */,
+				8CA5E4CB12C91BC600A4DADD /* SelectorNombres.m in Sources */,
+				8CA2110A12F2C300007C5579 /* ListaInvitadosPortero.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/old-20110926/T2 2/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeVip_Prefix.pch;
+				INFOPLIST_FILE = "BeVip-Info.plist";
+				PRODUCT_NAME = BeVip;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/old-20110926/T2 2/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeVip_Prefix.pch;
+				INFOPLIST_FILE = "BeVip-Info.plist";
+				PRODUCT_NAME = BeVip;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8F0F621315278500A8197E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Federico Garcia-Lorca Hernandez";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9A06BED1-AD76-4D48-88CF-5B5FF8A84036";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		8C8F0F631315278500A8197E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/old-20110926/T2 2/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Federico Garcia-Lorca Hernandez";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeVip_Prefix.pch;
+				INFOPLIST_FILE = "BeVip-Info.plist";
+				PRODUCT_NAME = BeVip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9A06BED1-AD76-4D48-88CF-5B5FF8A84036";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BeVip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				8C8F0F631315278500A8197E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BeVip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				8C8F0F621315278500A8197E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
